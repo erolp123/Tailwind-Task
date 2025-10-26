@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@custom-variant hocus (&:hover, &:focus);
+@theme {
+
+    --color-deepblue: #3b82f6;
+    --font-display: "TEST", sans-serif;
+    --color-text: #1f2937;
+    --color-lightblue: #4fa2ff;
+}
