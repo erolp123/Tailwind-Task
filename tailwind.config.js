@@ -10,5 +10,9 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')],
+
+  corePlugins: {
+    preflight: true, // Resets browser defaults
+  },
 }

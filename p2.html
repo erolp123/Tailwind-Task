@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html class="scroll-smooth">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="output.css">
+</head>
+
+<body class=" font-display">
+  <header class="bg-white/80 shadow-lg backdrop-blur-sm fixed w-full z-50 top-0">
+    <nav class="flex items-center justify-between  py-3 
+        max-w-7xl mx-auto relative px-2">
+
+      <div class="flex items-center space-x-2">
+        <img src="Images/logo.png" alt="Project Logo" class="h-10 w-10 rounded-full">
+
+
+      </div>
+
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="index.html" class="text-deepblue hover:text-teal-500 
+transition-colors">Home</a>
+
+        <a href="index.html#about" class="text-deepblue hover:text-teal-500 
+transition-colors">About</a>
+
+        <a href="index.html#project" class="text-deepblue hover:text-teal-500
+transition-colors">Projects</a>
+
+        <a href="index.html#contact" class="text-deepblue hover:text-teal-500
+transition-colors">Contact</a>
+      </div>
+
+      <input type="checkbox" id="nav-toggle" class="hidden peer">
+
+      <label for="nav-toggle" class="md:hidden cursor-pointer 
+text-deepblue hover:text-teal-500 focus:outline-none">
+
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </label>
+
+      <div class="peer-checked:block hidden md:hidden 
+absolute top-full right-0 w-30 bg-white shadow-lg border-t rounded-2xl">
+
+        <div class="px-4 py-2 space-y-2">
+
+          <a href="#home" class="block text-gray-600 hover:text-teal-500
+py-2 transition-colors">Home</a>
+
+          <a href="#about" class="block text-gray-600 hover:text-teal-500 
+py-2 transition-colors">About</a>
+
+          <a href="#projects" class="block text-gray-600 hover:text-teal-500
+py-2 transition-colors">Projects</a>
+
+          <a href="#contact" class="block text-gray-600 hover:text-teal-500
+py-2 transition-colors">Contact</a>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="pt-20 bg-linear-to-br from-blue-50 to-teal-50 py-16 px-6 md:px-12">
+  <div class="max-w-7xl mx-auto">
+
+    <div class="flex flex-col md:flex-row gap-10 items-start">
+
+      <!-- Left column -->
+      <div class="flex-1">
+        <h2 class="text-4xl md:text-5xl font-bold text-blue-500 mb-4 leading-tight">
+          Movie App – React
+        </h2>
+        <br>
+        <br>
+        <h4 class="text-lg md:text-xl font-semibold text-deepblue mb-2 tracking-tight">
+  Project Summary
+</h4>
+        <p class="text-gray-700 text-base md:text-lg leading-relaxed max-w-2xl">
+    This project is a case study for the Mi Band 4 smart band. 
+    The project involves User interviews to identify weak points of the design and a proposal 
+    for a new UI based on the interview results  </p>
+      </div>
+
+      <!-- Right column -->
+      <div class="flex-1 flex justify-end">
+        <img
+          src="Images/p2i1.png"
+          class="max-w-full h-80 rounded-lg shadow-lg object-cover"
+          alt="Movie App preview"
+        >
+      </div>
+
+    </div>
+
+  </div>
+</main>
+
+<section id="about" class="w-full bg-linear-to-br from-blue-50 to-teal-50 py-16 px-6 md:px-12">
+  <div class="flex flex-col md:flex-row w-full gap-10 items-center md:items-stretch">
+
+    <div class="flex-1 flex flex-col justify-center">
+      <h3 class="text-2xl md:text-3xl font-bold text-blue-500 mb-4 leading-tight">More about the project</h3>  
+      <p class="text-black font-semibold text-base md:text-lg leading-relaxed">
+        The project was initiated by running a questionnaire within the study group to understand users goals and expectations 
+        when using the Mi Band device and to gather their opinions on what is good and what can be improved.
+Based on the questionnaire results a user interview has been conducted where the participants where presented with 4 tasks to 
+complete. <br>
+After each task I have recorded the participants time to complete that task as well as the number of steps it took them to 
+complete the task. Participants opinions have been gathered after every task has been completed.
+After the analysis of the questionnare and the user interviews I have identified that the participants were mainly 
+dissatisfied with the amount of steps that's needed to complete each task.<br>
+After the results have been analysed I've redesigned the UI of the device to match the user needs and I've also 
+implemented a temperature measuring functionality to the device as this experiment was conducted on the early days 
+of the COVID 19 pandemic where temperature measuring was a cruicial part of monitoring people.
+<br><br></p>
+       
+    </div>
+  </div>
+</section>
+
+<section class="bg-linear-to-br from-blue-50 to-teal-50 py-20 px-6 md:px-12">
+  <div class="max-w-7xl mx-auto">
+
+
+    <!-- Media grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+
+      <!-- Left image -->
+      <div class="rounded-xl overflow-hidden shadow-lg">
+        <img
+          src="Images/p2i2.png"
+          alt="Project screenshot"
+          class="w-full h-64 md:h-80 object-cover"
+        >
+      </div>
+
+      <!-- Center video -->
+      <div class="rounded-xl overflow-hidden shadow-lg">
+        <img
+          src="Images/p2i3.png"
+          alt="Project screenshot"
+          class="w-full h-64 md:h-80 object-cover"
+        >
+      </div>
+
+      <!-- Right image -->
+      
+
+    </div>
+  </div>
+</section>
+

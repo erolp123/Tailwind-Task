@@ -1,243 +1,303 @@
- <!DOCTYPE html>
- <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
- <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
- <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
- <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
- <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="output.css">
-    </head>
-    <body class="bg-gray-100 font-display">
-       <header class="bg-white/80 shadow-lg backdrop-blur-sm fixed w-full z-50 top-0">
-        <nav class="flex items-center justify-between  py-3 
+<!DOCTYPE html>
+
+<html class="scroll-smooth">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="output.css">
+</head>
+
+<body class=" font-display">
+  <header class="bg-white/80 shadow-lg backdrop-blur-sm fixed w-full z-50 top-0">
+    <nav class="flex items-center justify-between  py-3 
         max-w-7xl mx-auto relative px-2">
 
-        <div class="flex items-center space-x-2">
-            <img src="logo.png" 
-            alt="Logo" class="h-10 w-10 rounded-full">
+      <div class="flex items-center space-x-2">
+        <img src="Images/logo.png" alt="Project Logo" class="h-10 w-10 rounded-full">
 
-            
-        </div>
 
-        <div class="hidden md:flex items-center space-x-8">
-<a href="#" class="text-deepblue hover:text-teal-500 
+      </div>
+
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="#home" class="text-deepblue hover:text-teal-500 
 transition-colors">Home</a>
 
-<a href="#" class="text-deepblue hover:text-teal-500 
+        <a href="#about" class="text-deepblue hover:text-teal-500 
 transition-colors">About</a>
 
-<a href="#" class="text-deepblue hover:text-teal-500
+        <a href="#project" class="text-deepblue hover:text-teal-500
 transition-colors">Projects</a>
 
-<a href="#" class="text-deepblue hover:text-teal-500
+        <a href="#contact" class="text-deepblue hover:text-teal-500
 transition-colors">Contact</a>
-</div>
+      </div>
 
-<input type="checkbox" id="nav-toggle" class="hidden peer">
+      <input type="checkbox" id="nav-toggle" class="hidden peer">
 
-<label for="nav-toggle" class="md:hidden cursor-pointer 
+      <label for="nav-toggle" class="md:hidden cursor-pointer 
 text-deepblue hover:text-teal-500 focus:outline-none">
 
-<svg class="w-6 h-6" fill="none" stroke="currentColor" 
-viewBox="0 0 24 24">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 
-<path stroke-linecap="round" stroke-linejoin="round" 
-stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-</svg>
-</label>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </label>
 
-<div class="peer-checked:block hidden md:hidden 
-absolute top-full right-0 w-30 bg-white shadow-lg border-t rounded-2xl">
+      <div class="peer-checked:block hidden md:hidden 
+absolute top-full right-0 w-32 bg-white shadow-lg border-t rounded-2xl">
 
-<div class="px-4 py-2 space-y-2">
+        <div class="px-4 py-2 space-y-2">
 
-<a href="#" class="block text-gray-600 hover:text-teal-500
+          <a href="#home" class="block text-gray-600 hover:text-teal-500
 py-2 transition-colors">Home</a>
 
-<a href="#" class="block text-gray-600 hover:text-teal-500 
+          <a href="#about" class="block text-gray-600 hover:text-teal-500 
 py-2 transition-colors">About</a>
 
-<a href="#" class="block text-gray-600 hover:text-teal-500
+          <a href="#project" class="block text-gray-600 hover:text-teal-500
 py-2 transition-colors">Projects</a>
 
-<a href="#" class="block text-gray-600 hover:text-teal-500
+          <a href="#contact" class="block text-gray-600 hover:text-teal-500
 py-2 transition-colors">Contact</a>
 
-</div>
-</div>
+        </div>
+      </div>
     </nav>
-       </header>
-       <main class="grid grid-cols-2 pt-20 p-4 bg-linear-to-br from-blue-50 to-teal-50 gap-8">
-        <div class="flex flex-col justify center">
-     <h1 class="text-4xl md:text-6xl font-bold text-blue-500 mb-4 leading-tight">Alex Riveira</h1>
-<h2 class="text-3xl md:text-4xl font-bold text-lightblue mb-4 leading-tight">Freelance Web Designer Crafting <br>Pixel-Perfect Experiences</h2>
-     
-<div class="w-2/5">
+  </header>
+  <main class="pt-20 bg-linear-to-br from-blue-50 to-teal-50  py-16 px-6 md:px-12">
+    <div class="flex flex-col md:flex-row w-full gap-10 items-center md:items-stretch">
+    <div class="flex flex-col justify-center">
+      <h1 class="text-4xl md:text-6xl font-bold text-blue-500 mb-4 leading-tight">Erol Pehlivan</h1>
+      <h2 class="text-3xl md:text-4xl font-bold text-lightblue mb-4 leading-tight">UX & Web Designer blending software <br>engineering knowledge 
+        with user-centred design</h2>
 
-<button class="bg-deepblue hover:bg-teal-500 
+      <div class="w-2/5">
+
+        <button class="bg-deepblue hover:bg-teal-500 
 text-white font-bold py-2 px-4 rounded-lg 
 transition-colors md:py-3 md:px-6  md:w-auto">Projects
-</button>
-</div>
-</div>
-<div class="flex items-center justify-center">
-<img src="webdev.jpg" class="max-w-full h-80 rounded-lg 
+        </button>
+      </div>
+    </div>
+    <div class="flex items-center justify-center">
+      <img src="Images/webdev.jpg" class="max-w-full h-80 rounded-lg 
 shadow-lg">
-        
-     </div>   
-        </main>
 
-        <div class="text-2xl md:text-4xl font-bold text-blue-500 
-        leading-tight text-center bg-linear-to-br from-blue-50 to-teal-50 py-5">Featured Projects</div>
-
-
-<div class="justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-linear-to-br from-blue-50 to-teal-50  py-10 gap-8">
-
-<!-- Card 1 -->
-<div class="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white hover:shadow-teal-500 transition duration-400 ">
-  <!-- Card image -->
-  <img class="w-full h-48 object-cover" src="p1.jpg" alt="A laptop on a desk">
-  <!-- Card body -->
-  <div class="p-6">
-    <!-- Card tags -->
-    <div class="mb-2 flex flex-wrap gap-2">
-      <a href="" class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Web Development</a>
-      <a href="" class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Design</a>
     </div>
-    <!-- Card title -->
-    <a href="" class="font-bold text-xl mb-2 text-gray-900 hocus:text-teal-600">Building a Tailwind Project</a>
-    <!-- Card description -->
-    <p class="text-gray-700 text-base">
-      Learn how to quickly and efficiently build a responsive UI with Tailwind CSS. This guide will take you from installation to a finished component.
-    </p>
-  </div>
-</div>
-
-
-<!-- Card 2-->
-<div class="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white hover:shadow-teal-500 transition duration-400 ">
-  <!-- Card image -->
-  <img class="w-full h-48 object-cover" src="p2.jpg" alt="A laptop on a desk">
-  <!-- Card body -->
-  <div class="p-6">
-    <!-- Card tags -->
-    <div class="mb-2 flex flex-wrap gap-2">
-      <a href="" class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Web Development</a>
-      <a href="" class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Design</a>
     </div>
-    <!-- Card title -->
-    <a href="" class="font-bold text-xl mb-2 text-gray-900 hocus:text-teal-600">Building a Tailwind Project</a>
-    <!-- Card description -->
-    <p class="text-gray-700 text-base">
-      Learn how to quickly and efficiently build a responsive UI with Tailwind CSS. This guide will take you from installation to a finished component.
-    </p>
-  </div>
-</div>
+  </main>
 
-<!-- Card 3-->
-<div class="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white hover:shadow-teal-500 transition duration-400 ">
-  <!-- Card image -->
-  <img class="w-full h-48 object-cover" src="p3.png" alt="A laptop on a desk">
-  <!-- Card body -->
-  <div class="p-6">
-    <!-- Card tags -->
-    <div class="mb-2 flex flex-wrap gap-2">
-      <a href="" class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Web Development</a>
-      <a href="" class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Design</a>
-    </div>
-    <!-- Card title -->
-    <a href="" class="font-bold text-xl mb-2 text-gray-900 hocus:text-teal-600">Building a Tailwind Project</a>
-    <!-- Card description -->
-    <p class="text-gray-700 text-base">
-      Learn how to quickly and efficiently build a responsive UI with Tailwind CSS. This guide will take you from installation to a finished component.
-    </p>
-  </div>
-</div>
-
-<!-- Card 4-->
-<div class="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white hover:shadow-teal-500 transition duration-400 ">
-  <!-- Card image -->
-  <img class="w-full h-48 object-cover" src="p4.jpg" alt="A laptop on a desk">
-  <!-- Card body -->
-  <div class="p-6">
-    <!-- Card tags -->
-    <div class="mb-2 flex flex-wrap gap-2">
-      <a href="" class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Web Development</a>
-      <a href="" class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Design</a>
-    </div>
-    <!-- Card title -->
-    <a href="" class="font-bold text-xl mb-2 text-gray-900 hocus:text-teal-600">Building a Tailwind Project</a>
-    <!-- Card description -->
-    <p class="text-gray-700 text-base">
-      Learn how to quickly and efficiently build a responsive UI with Tailwind CSS. This guide will take you from installation to a finished component.
-    </p>
-  </div>
-</div>
-
-<!-- Card 5-->
-<div class="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white hover:shadow-teal-500 transition duration-400 ">
-  <!-- Card image -->
-  <img class="w-full h-48 object-cover" src="p5.jpg" alt="A laptop on a desk">
-  <!-- Card body -->
-  <div class="p-6">
-    <!-- Card tags -->
-    <div class="mb-2 flex flex-wrap gap-2">
-      <a href="" class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Web Development</a>
-      <a href="" class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Design</a>
-    </div>
-    <!-- Card title -->
-    <a href="" class="font-bold text-xl mb-2 text-gray-900 hocus:text-teal-600">Building a Tailwind Project</a>
-    <!-- Card description -->
-    <p class="text-gray-700 text-base">
-      Learn how to quickly and efficiently build a responsive UI with Tailwind CSS. This guide will take you from installation to a finished component.
-    </p>
-  </div>
-</div>
-
-<!-- Card 6-->
-<div class="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white hover:shadow-teal-500 transition duration-400 ">
-  <!-- Card image -->
-  <img class="w-full h-48 object-cover" src="p6.jpg" alt="A laptop on a desk">
-  <!-- Card body -->
-  <div class="p-6">
-    <!-- Card tags -->
-    <div class="mb-2 flex flex-wrap gap-2">
-      <a href="" class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Web Development</a>
-      <a href="" class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Design</a>
-    </div>
-    <!-- Card title -->
-    <a href="" class="font-bold text-xl mb-2 text-gray-900 hocus:text-teal-600">Building a Tailwind Project</a>
-    <!-- Card description -->
-    <p class="text-gray-700 text-base">
-      Learn how to quickly and efficiently build a responsive UI with Tailwind CSS. This guide will take you from installation to a finished component.
-    </p>
-  </div>
-</div>
-        </div>
-        <div class="grid grid-cols-2 bg-linear-to-br from-blue-50 to-teal-50 gap-8 py-20">
-        </div>
-
-
-     <!--<h3 class="text-2x1 md:text-2xl font-bold text-blue-500 mb-4 leading-tight">About me</h3>  
-     
-     <p class="text-lightblue font-display">Hi, I'm Alex Riveira, a passionate web developer with 5+ years crafting 
-        pixel-perfect, user-centric digital experiences. From responsive 
-        front-end designs using React and Vue.js to robust back-end systems with
-        Node.js and Python, I thrive on turning complex ideas into seamless, scalable web apps.
+  <section id="about" class="w-full bg-linear-to-br from-blue-50 to-teal-50 py-16 px-6 md:px-12">
+  <div class="flex flex-col md:flex-row w-full gap-10 items-center md:items-stretch">
+    
+    <!-- Text Column -->
+    <div class="flex-1 flex flex-col justify-center ">
+      <h3 class="text-2xl md:text-3xl font-bold text-blue-500 mb-4 leading-tight">About Me</h3>  
+      <p class="text-black font-semibold text-base md:text-lg leading-relaxed">
+        UX & Web Designer blending software engineering knowledge with user-centred design. 
+        Informed by customer service experience with hands-on experience in Figma and front-end & web technologies. 
+        Combining these with a strong passion and eye for detail to bring forward intuitive, user-focused web experiences..
         <br><br>
-What drives me? Solving real-world problems with clean code and innovative UX—whether it's optimizing load times for e-commerce sites or building intuitive dashboards for startups. </p>
-     </div> </div>
+        What drives me? Solving real-world problems with clean code and innovative UX—whether it's improving the User's experience or to improve the services efficiency.
+      </p>
+    </div>
+    
+    <!-- Image Column -->
+    <div class="flex items-center justify-center">
+      <img src="Images/about.jpg" alt="About Alex Rivera"
+           class="max-w-full h-80 rounded-lg shadow-lg object-cover">
+    </div>
+    
+  </div>
+</section>
 
-     <div> --></div>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="" async defer></script>
-    </body>
- </html>
+  <div class="text-2xl md:text-4xl font-bold text-blue-500 
+        leading-tight text-center bg-linear-to-br from-blue-50 to-teal-50 py-5" id="project">Featured Projects</div>
+
+
+  <div
+    class="justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-linear-to-br from-blue-50 to-teal-50  p-6 py-10 gap-8 ">
+
+    <!-- Card 1 -->
+    <div class="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white hover:shadow-teal-500 transition duration-400 ">
+      <!-- Card image -->
+      <img class="w-full h-48 object-cover" src="Images/p1i1.png" alt="A laptop on a desk">
+      <!-- Card body -->
+      <div class="p-6">
+        <!-- Card tags -->
+        <div class="mb-2 flex flex-wrap gap-2">
+          <a  class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Front-end Web Design</a>
+          <a  class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">UX/UI Design</a>
+        </div>
+        <!-- Card title -->
+        <a href="p1.html" class="font-bold text-xl mb-2 text-gray-900 hocus:text-teal-600">Movie Web App - React</a>
+        <!-- Card description -->
+        <p class="text-gray-700 text-base">
+          Project 1 Description Lorem Ipsum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla itaque ut adipisci, 
+          officiis nisi neque sapiente alias hic veritatis nam ullam.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Card 2-->
+    <div class="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white hover:shadow-teal-500 transition duration-400 ">
+      <!-- Card image -->
+      <img class="w-full h-48 object-cover" src="Images/p2i2.png" alt="A laptop on a desk">
+      <!-- Card body -->
+      <div class="p-6">
+        <!-- Card tags -->
+        <div class="mb-2 flex flex-wrap gap-2">
+          <a  class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">UX Design</a>
+          <a  class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">User interviews</a>
+          <a  class="bg-red-100 text-red-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Wireframing</a>
+        </div>
+        <!-- Card title -->
+        <a href="p2.html" class="font-bold text-xl mb-2 text-gray-900 hocus:text-teal-600">Mi Band UI redesign</a>
+        <!-- Card description -->
+        <p class="text-gray-700 text-base">
+         Project 2 Description Lorem Ipsum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla itaque ut adipisci, 
+          officiis nisi neque sapiente alias hic veritatis nam ullam.
+        </p>
+      </div>
+    </div>
+
+    <!-- Card 3-->
+    <div class="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white hover:shadow-teal-500 transition duration-400 ">
+      <!-- Card image -->
+      <img class="w-full h-48 object-cover" src="Images/p3i1.png" alt="A laptop on a desk">
+      <!-- Card body -->
+      <div class="p-6">
+        <!-- Card tags -->
+        <div class="mb-2 flex flex-wrap gap-2">
+          <a  class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Front-end Web Design</a>
+          <a  class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">UX/UI Design</a>
+        </div>
+        <!-- Card title -->
+        <a href="p3.html" class="font-bold text-xl mb-2 text-gray-900 hocus:text-teal-600">Portfolio Website</a>
+        <!-- Card description -->
+        <p class="text-gray-700 text-base">
+          Project 3 Description Lorem Ipsum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla itaque ut adipisci, 
+          officiis nisi neque sapiente alias hic veritatis nam ullam.
+        </p>
+      </div>
+    </div>
+
+    <!-- Card 4-->
+    <div class="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white hover:shadow-teal-500 transition duration-400 ">
+      <!-- Card image -->
+      <img class="w-full h-48 object-cover" src="Images/p4i4.png" alt="A laptop on a desk">
+      <!-- Card body -->
+      <div class="p-6">
+        <!-- Card tags -->
+        <div class="mb-2 flex flex-wrap gap-2">
+          <a  class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Wireframing
+            </a>
+          <a  class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">UX/UI Design</a>
+        </div>
+        <!-- Card title -->
+        <a href="p4.html" class="font-bold text-xl mb-2 text-gray-900 hocus:text-teal-600">Wallet & Movie Mobile app Design</a>
+        <!-- Card description -->
+        <p class="text-gray-700 text-base">
+          Project 4 Description Lorem Ipsum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla itaque ut adipisci, 
+          officiis nisi neque sapiente alias hic veritatis nam ullam.
+        </p>
+      </div>
+    </div>
+
+    <!-- Card 5-->
+    <div class="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white hover:shadow-teal-500 transition duration-400 ">
+      <!-- Card image -->
+      <img class="w-full h-48 object-cover" src="Images/p5i4.png" alt="A laptop on a desk">
+      <!-- Card body -->
+      <div class="p-6">
+        <!-- Card tags -->
+        <div class="mb-2 flex flex-wrap gap-2">
+          <a  class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Wireframing</a>
+          <a  class="bg-red-100 text-yellow-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Prototyping</a>
+          <a  class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">UX/UI Design</a>
+        </div>
+        <!-- Card title -->
+        <a href="p5.html" class="font-bold text-xl mb-2 text-gray-900 hocus:text-teal-600">Just Eat Design Proposal</a>
+        <!-- Card description -->
+        <p class="text-gray-700 text-base">
+          Project 5 Description Lorem Ipsum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla itaque ut adipisci, 
+          officiis nisi neque sapiente alias hic veritatis nam ullam.
+        </p>
+      </div>
+    </div>
+
+    <!-- Card 6-->
+    
+  </div>
+  <div class="flex  justify-center bg-linear-to-br from-blue-50 to-teal-50 gap-8 py-20">
+
+    <div class="max-w-md w-full bg-white rounded-lg shadow-md p-6" id="contact">
+      <h2 class="text-2xl font-bold text-center text-gray-800 mb-6">Let's Collaborate</h2>
+      <form class="space-y-4 align-middle" action="https://formspree.io/f/mdakadyb" method="post">
+        <div>
+          <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+          <input type="text" id="name" name="name" required class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm 
+                       focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500">
+        </div>
+        <div>
+          <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+          <input type="email" id="email" name="email" required class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm 
+                       focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500">
+        </div>
+        <div>
+          <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+          <textarea id="message" name="message" rows="4" required class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm 
+                          focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-teal-500 
+                    focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-200">
+          Submit
+        </button>
+
+        <div class="mt-6 pt-4 border-t border-gray-200 flex justify-center space-x-8">
+          <a href="https://www.linkedin.com/in/erol-pehlivan-039b48140" target="_blank" rel="noopener noreferrer"
+            class="flex items-center text-blue-600 hover:text-blue-800 transition duration-200">
+            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/erolp123" target="_blank" rel="noopener noreferrer"
+            class="flex items-center text-gray-800 hover:text-gray-900 transition duration-200">
+            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z"
+                clip-rule="evenodd" />
+            </svg>
+            GitHub
+          </a>
+          
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer class="bg-linear-to-br from-blue-50 to-teal-50">
+
+
+    <div class="sm:flex sm:items-center sm:justify-between">
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="https://flowbite.com/"
+          class="hover:underline">Erol Pehlivan</a>. All Rights Reserved.
+      </span>
+      
+    
+
+  </footer>
+  
+  
+
+  <script src="" async defer></script>
+</body>
+
+</html>
